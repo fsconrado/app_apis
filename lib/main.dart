@@ -10,9 +10,9 @@ void main(){
     MaterialApp(
       initialRoute: "/",
       routes: {
-        "/":(_)=>Home(),
-        "/cep":(_)=>ConsultaCep(),
-        "/futebol":(_)=>ConsultaFutebol(),
+        "/":(_)=>const Home(),
+        "/cep":(_)=>const ConsultaCep(),
+        "/futebol":(_)=>const ConsultaFutebol(),
       },
   ),);
 }

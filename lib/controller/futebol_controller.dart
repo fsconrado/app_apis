@@ -21,7 +21,6 @@ class FutebolController {
         var campeonato = Campeonato(nome, temporada, tipo, logo);
         listaCampeonatos.add(campeonato);
       }
-     print(listaCampeonatos.toString());
 
       return listaCampeonatos;
   }
