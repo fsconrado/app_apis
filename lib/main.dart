@@ -4,16 +4,15 @@ import 'package:app_apis/view/home.dart';
 import 'package:flutter/material.dart';
 
 
+
 void main(){
   runApp(
     MaterialApp(
-      debugShowCheckedModeBanner: false,
-      initialRoute: '/',
+      initialRoute: "/",
       routes: {
-        '/':(_)=>const Home(),
-        '/cep':(_)=>const ConsultaCep(),
-        '/futebol':(_)=>const ConsultaFutebol(),
+        "/":(_)=>Home(),
+        "/cep":(_)=>ConsultaCep(),
+        "/futebol":(_)=>ConsultaFutebol(),
       },
-    ),
-  );
+  ),);
 }
